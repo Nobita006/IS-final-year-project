@@ -1,4 +1,6 @@
 pip install sympy matplotlib
+
+
 python elliptic_curve.py 2 3 17
 
 
