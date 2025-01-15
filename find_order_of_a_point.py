@@ -57,7 +57,7 @@ def find_order(a, b, p, xp, yp):
     if xr == 0 and yr == 0:
         return gmpy2.mpz(2)  # Point has order 2 (doubled point results in point at infinity)
 
-    order += 1
+    # order += 1
     xq, yq = xr, yr
 
     # Add points repeatedly until we reach the point at infinity

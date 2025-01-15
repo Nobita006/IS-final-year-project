@@ -69,8 +69,8 @@ def find_points(a, b, p):
             y = p - y  # The second square root (mod p)
             no_of_points += 1
     
-    # Include the point at infinity
-    no_of_points += 1
+    # # Include the point at infinity
+    # no_of_points += 1
 
 if __name__ == "__main__":
     """

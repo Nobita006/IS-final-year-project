@@ -92,9 +92,9 @@ def elliptic_curve_points(a, b, p):
             except AssertionError:
                 continue  # No valid y, skip this x
 
-    # Add (0,0) if it is not already present in points
-    if (0, 0) not in points:
-        points.append((0, 0))
+    # # Add (0,0) if it is not already present in points
+    # if (0, 0) not in points:
+    #     points.append((0, 0))
     
     return points
 
