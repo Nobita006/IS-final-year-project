@@ -10,7 +10,7 @@ class TestEllipticCurveTotalPoints(unittest.TestCase):
         p = 7
         points = elliptic_curve_points(a, b, p)
         total_points = len(points)
-        expected_total_points = 6  # Replace this with the actual number of points
+        expected_total_points = 6  
         self.assertEqual(total_points, expected_total_points, f"Expected {expected_total_points} points, but got {total_points}")
 
     def test_total_points_example_2(self):
@@ -20,7 +20,7 @@ class TestEllipticCurveTotalPoints(unittest.TestCase):
         p = 11
         points = elliptic_curve_points(a, b, p)
         total_points = len(points)
-        expected_total_points = 11  # Replace this with the actual number of points
+        expected_total_points = 11  
         self.assertEqual(total_points, expected_total_points, f"Expected {expected_total_points} points, but got {total_points}")
 
     def test_total_points_example_3(self):
@@ -30,7 +30,7 @@ class TestEllipticCurveTotalPoints(unittest.TestCase):
         p = 13
         points = elliptic_curve_points(a, b, p)
         total_points = len(points)
-        expected_total_points = 10  # Replace this with the actual number of points
+        expected_total_points = 10  
         self.assertEqual(total_points, expected_total_points, f"Expected {expected_total_points} points, but got {total_points}")
 
     def test_total_points_example_4(self):
@@ -40,7 +40,7 @@ class TestEllipticCurveTotalPoints(unittest.TestCase):
         p = 17
         points = elliptic_curve_points(a, b, p)
         total_points = len(points)
-        expected_total_points = 16  # Replace this with the actual number of points
+        expected_total_points = 16  
         self.assertEqual(total_points, expected_total_points, f"Expected {expected_total_points} points, but got {total_points}")
 
     def test_total_points_example_5(self):
@@ -50,7 +50,7 @@ class TestEllipticCurveTotalPoints(unittest.TestCase):
         p = 29
         points = elliptic_curve_points(a, b, p)
         total_points = len(points)
-        expected_total_points = 36  # Replace this with the actual number of points
+        expected_total_points = 36  
         self.assertEqual(total_points, expected_total_points, f"Expected {expected_total_points} points, but got {total_points}")
 
     def test_total_points_example_6(self):
@@ -60,7 +60,7 @@ class TestEllipticCurveTotalPoints(unittest.TestCase):
         p = 19
         points = elliptic_curve_points(a, b, p)
         total_points = len(points)
-        expected_total_points = 16  # Replace this with the actual number of points
+        expected_total_points = 16  
         self.assertEqual(total_points, expected_total_points, f"Expected {expected_total_points} points, but got {total_points}")
 
 if __name__ == "__main__":
